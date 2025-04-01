@@ -1,3 +1,7 @@
+import Button from "./UI/Button.js";
+
+
+
 const MealItem = (props) => {
 
     const formattedPrice = new Intl.NumberFormat("de-DE", {
@@ -15,7 +19,7 @@ const MealItem = (props) => {
                      <p className="meal-item-description">{props.description}</p>
                  </div>
                  <div className="meal-item-actions">
-                     <button>Add to Cart</button>
+                     <Button>Add to Cart</Button>
                 </div>
             </article>
         </li>
