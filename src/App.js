@@ -70,8 +70,7 @@ const App = () => {
                </li>
              ))}
            </ul>
-           <button onClick={closeModalHandler}>Close</button>
-           <button onClick={checkoutHandler}>Checkout</button> 
+           <button className="text-button" onClick={checkoutHandler}>Checkout</button> 
          </Modal>
     </main>
     </CartContext.Provider>
